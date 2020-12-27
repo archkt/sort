@@ -12,7 +12,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] arr10 = createRandomArray(10);
+        int[] arr10 = createRandomArray(50);
         for (int i = 0; i < arr10.length; i++) {
             System.out.print(arr10[i] + " ");
         }
@@ -22,6 +22,7 @@ public class Main {
 //        arr10 = InsertionSort.sort(arr10);
 //        arr10 = SelectionSort.sort(arr10);
 //        arr10 = MergeSort.sort(arr10);
+        arr10 = QuickSort.sort(arr10);
 
         for (int i = 0; i < arr10.length; i++) {
             System.out.print(arr10[i] + " ");
